@@ -1,9 +1,9 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
-  cells = ["   |","   ","|   ", "   ", "   ", "   ", "   ", "   ", "   "]
+  cells = ["   ","|   |","   ", "   ", "   ", "   ", "   ", "   ", "   "]
   border = "|"
   row = ["-----------"]
-  puts cells[0..2]
+  print cells[0..2]
   #print border
   #print cell
   #print border
