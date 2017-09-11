@@ -3,7 +3,7 @@ def display_board
   cells = ["   |","   ","|   ", "   ", "   ", "   ", "   ", "   ", "   "]
   border = "|"
   row = ["-----------"]
-  print cells[0..2]
+  puts cells[0..2]
   #print border
   #print cell
   #print border
