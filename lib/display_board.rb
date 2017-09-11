@@ -21,5 +21,5 @@ def display_board(cells)
   puts cells[8]
 end
 
-cells = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
-display_board
+board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
+display_board()
